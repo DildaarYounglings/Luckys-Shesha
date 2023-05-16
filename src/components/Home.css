@@ -107,4 +107,7 @@ body{
 .homeFooter_div3{
   animation:FromLeft2Right ease-in-out 3s;
 }
+.Dildaar-positionRelative{
+  position: relative;
+}
 /*end of all css for Home.js page*/
