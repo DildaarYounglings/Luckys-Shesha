@@ -42,46 +42,37 @@ export const Home = () => {
 
       </div>
 
-      <div style={{ margin: "0vh 0vw", width: "fit-content" }}>
+      <div style={{ margin: "40vh 0vw", width: "fit-content" }}>
 
         <h1 style={{ position: "relative", left: "-30%", }}>Trending recipes for the month</h1>
 
         <div className="home_footer">
 
           <div className="homeFooter_div1">
-            <div className="Dildaar-positionRelative">
-              <button style={{ position: "relative",top:"40px",left:"8px",backgroundColor: "green",width:"9%",height:"9%",zIndex:"1"}}><img style={{zIndex:"inherit", translate:"10px -16px"}} src={`images/bookmarkFeature.png`} alt='' /></button>
+            <div style={{ position: "relative" }} >
+              <button style={{ cursor: 'pointer', position: "absolute", backgroundColor: "green", right: "0" }}><img src={`images/bookmarkFeature.png`} alt='' /></button>
               <img src={`images/pancake.png`} alt='' />
-              <button style={{ cursor: 'pointer', position:"absolute", backgroundColor: "green", left: "-110px",top:"205px",width:"140px",height:"fit-content"}} onClick={function () { pancakeIngredientsEl.current.click(); }}><img style={{zIndex:"inherit", translate:"57px -16px"}} src={`images/ViewIngredientsButton.png`} alt='' /><NavLink ref={pancakeIngredientsEl} to="/recipesMethods/Pancakes" hidden /></button>
+              <button style={{ cursor: 'pointer', position: "absolute", backgroundColor: "green", left: "0", bottom: "0" }} onClick={function () { pancakeIngredientsEl.current.click(); }}><img src={`images/ViewIngredientsButton.png`} alt='' /><NavLink ref={pancakeIngredientsEl} to="/recipesMethods/Pancakes" hidden /></button>
             </div>
-            <div className="Dildaar-div2" style={{translate:"-110px -10px"}}>
-              <h2 className="homeHeaderLeft_h2">Pancake</h2>
-              <div><img style={{translate:"-10px 10px"}} src={`images/gordonRamsy.png`} alt='' /><h4>Gordon Ramsay</h4></div>
-            </div>
+            <h2 className="homeHeaderLeft_h2">Pancake</h2><h2 className="homeHeaderLeft_h2"><img src={`images/gordonRamsy.png`} alt='' /> Gordon Ramsay</h2>
           </div>
 
           <div className="homeFooter_div2" >
-            <div className="Dildaar-positionRelative">
-              <button style={{ position: "relative",top:"40px",left:"8px",backgroundColor: "green",width:"9%",height:"9%",zIndex:"1"}}><img style={{zIndex:"inherit", translate:"10px -16px"}} src={`images/bookmarkFeature.png`} alt='' /></button>
+            <div style={{ position: "relative" }} >
+              <button style={{ position: "absolute", backgroundColor: "green", right: "0" }}><img src={`images/bookmarkFeature.png`} alt='' /></button>
               <img src={`images/burger.png`} alt='' />
-              <button style={{ cursor: 'pointer', position:"absolute", backgroundColor: "green", left: "-110px",top:"205px",width:"140px",height:"fit-content"}} onClick={function () { pancakeIngredientsEl.current.click(); }}><img style={{zIndex:"inherit", translate:"57px -16px"}} src={`images/ViewIngredientsButton.png`} alt='' /><NavLink ref={pancakeIngredientsEl} to="/recipesMethods/Pancakes" hidden /></button>
+              <button style={{ position: "absolute", backgroundColor: "green", left: "0", bottom: "0" }}><img src={`images/ViewIngredientsButton.png`} alt='' /></button>
             </div>
-            <div className="Dildaar-div3" style={{translate:"-70px -10px"}}>
-              <h2 className="homeHeaderLeft_h2">Burger & Fries</h2>
-              <div><img style={{translate:"-50px 20px"}} src={`images/pierreGagnaire.png`} alt='' /><h4 style={{translate:"-40px 10px"}}>Pierre Gagnaire</h4></div>
-            </div>
+            <h2 className="homeHeaderLeft_h2">Burger & Fries</h2><h2 className="homeHeaderLeft_h2"><img src={`images/pierreGagnaire.png`} alt='' /> Pierre Gagnaire</h2>
           </div>
 
           <div className="homeFooter_div3">
-            <div className="Dildaar-positionRelative">
-              <button style={{ position: "relative",top:"40px",left:"8px",backgroundColor: "green",width:"9%",height:"9%",zIndex:"1"}}><img style={{zIndex:"inherit", translate:"10px -16px"}} src={`images/bookmarkFeature.png`} alt='' /></button>
+            <div style={{ position: "relative" }} >
+              <button style={{ position: "relative", backgroundColor: "green", right: "0" }}><img src={`images/bookmarkFeature.png`} alt='' /></button>
               <img src={`images/friedChickenAndRice.png`} alt='' />
-              <button style={{ cursor: 'pointer', position:"absolute", backgroundColor: "green", left: "-110px",top:"205px",width:"140px",height:"fit-content"}} onClick={function () { pancakeIngredientsEl.current.click(); }}><img style={{zIndex:"inherit", translate:"57px -16px"}} src={`images/ViewIngredientsButton.png`} alt='' /><NavLink ref={pancakeIngredientsEl} to="/recipesMethods/Pancakes" hidden /></button>
+              <button style={{ position: "absolute", backgroundColor: "green", left: "0", bottom: "0" }}><img src={`images/ViewIngredientsButton.png`} alt='' /></button>
             </div>
-            <div className="Dildaar-homeFooter3Div2" style={{translate:"-20px 10px"}}>
-              <h2 className="homeHeaderLeft_h2">Fried Chicken & Rice</h2>
-              <div style={{translate:"-100px 10px",}}><img style={{translate:"0px 1px"}} src={`images/gordonRamsy.png`} alt='' /><h4>Gordon Ramsay</h4></div>
-            </div>
+            <h2 className="homeHeaderLeft_h2">Fried Chicken & Rice</h2><h2><img src={`images/gordonRamsy.png`} alt='' /> Gordon Ramsay</h2>
           </div>
         </div>
       </div>
